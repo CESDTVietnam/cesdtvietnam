@@ -51,6 +51,22 @@
             }
         </style>
         <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        <script>
+              function googleTranslateElementInit() {
+                   new google.translate.TranslateElement(
+                   {pageLanguage: 'en', includedLanguages: 'en,vi'},
+                   'google_translate_element'
+                 );
+             }
+         </script>       
+         <script>
+  document.addEventListener("DOMContentLoaded", function() {
+    setTimeout(function() {
+      googleTranslateElementInit();
+    }, 1000); // Delays execution by 1 second
+  });
+</script>    
+
     </head>
 
     <body id="inner_page" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
@@ -87,14 +103,7 @@
                         &nbsp;&nbsp;&nbsp;&nbsp;
                         <li><img height="50px" width="70px" src="images/vietnam.gif" alt="Vietnam"></li>
                         <li id="google_translate_element">
-                        <script>
-        function googleTranslateElementInit() {
-            new google.translate.TranslateElement(
-                {pageLanguage: 'en', includedLanguages: 'en,vi'},
-                'google_translate_element'
-            );
-        }
-    </script>                        
+                                               
                         </li>    
                         </ul>
                     </div>
